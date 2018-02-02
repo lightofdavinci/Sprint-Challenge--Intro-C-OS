@@ -82,6 +82,7 @@ int printDirectory(char *path)
     }
   }
   // Close directory
+  closedir(pDir);
   return 0;
 }
 
